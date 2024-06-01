@@ -24,8 +24,8 @@ The same applies, of course, to all apps and programs that send any web requests
 ## How does DNS filtering work?
 
 When you use one of the AdGuard apps that supports DNS filtering, it acts as a buffer between your device and the DNS server. All DNS requests that your browsers or apps are about to send first get processed by AdGuard. If you're using the default DNS server provided by your ISP, your DNS traffic is likely not encrypted and vulnerable to snooping and hijacking. AdGuard will encrypt all your DNS requests before they leave your device, so that no malefactor could get access to their contents. On top of that, AdGuard can identify requests to ad, tracking, and/or adult domains and redirect them to a "blackhole" instead of forwarding them to the DNS server. More on that [later](#local-dns-blocklists).
-
-![How DNS filtering works](https://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/how_dns_filtering_works_en.png)
+later](#local-dns-blocklists)
+![How DNS filtering works](https://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/how_dns_filtering_works_en.png)https://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/how_dns_filtering_workhttps://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/how_dns_filtering_works_en.pngs_en.png
 
 DNS filtering is a powerful tool and it's supported by all major AdGuard apps: [AdGuard for Windows](https://adguard.com/adguard-windows/overview.html), [AdGuard for Mac](https://adguard.com/adguard-mac/overview.html), [AdGuard for Android](https://adguard.com/adguard-android/overview.html) and [AdGuard for iOS](https://adguard.com/adguard-ios/overview.html).
 
@@ -50,7 +50,7 @@ In AdGuard for iOS, first you have to enable *Advanced mode* in *Settings* in or
 :::
 
 You can add as many custom blocklists as you wish. For instance, you can use [AdGuard DNS filter](https://github.com/AdguardTeam/AdGuardSDNSFilter). It quite literally blocks everything that AdGuard DNS server does, but in this case you are free to use any other DNS server. Plus, this way you can add more filters or create custom exception rules, all of which would be impossible with a simple "use a blocking DNS server" setup.
-
+https://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/dns_diff.jpg
 There are hundreds of different DNS blocklists, you can look for them [here](https://filterlists.com/).
 
 ## DNS filtering vs. network filtering
@@ -75,3 +75,4 @@ First of all, we have to mention that with AdGuard you don't have to choose. You
 1. It's not possible to know the origin of a DNS request, which means you can't distinguish between different apps on the DNS-level. This impacts the statistics negatively and makes it impossible to create app-specific filtering rules.
 
 We recommend using DNS filtering in addition to network filtering, not instead of it, whenever possible.
+https://cdn.adtidy.org/public/Adguard/kb/DNS_filtering/dns_diff.jpg
